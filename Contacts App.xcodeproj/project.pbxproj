@@ -11,30 +11,49 @@
 		4B35765F22F9DFB0006EB087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B35765E22F9DFB0006EB087 /* Assets.xcassets */; };
 		4B35766222F9DFB0006EB087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B35766022F9DFB0006EB087 /* LaunchScreen.storyboard */; };
 		4B35766D22F9DFB1006EB087 /* Contacts_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35766C22F9DFB1006EB087 /* Contacts_AppTests.swift */; };
-		4B35767822F9EA9B006EB087 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35767722F9EA9B006EB087 /* ContactsViewController.swift */; };
 		4B35767F22F9F51E006EB087 /* ContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35767D22F9F51E006EB087 /* ContactsCell.swift */; };
 		4B35768022F9F51E006EB087 /* ContactsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B35767E22F9F51E006EB087 /* ContactsCell.xib */; };
 		4B35768322F9FCF8006EB087 /* ContactDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35768122F9FCF8006EB087 /* ContactDetailsCell.swift */; };
 		4B35768422F9FCF8006EB087 /* ContactDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B35768222F9FCF8006EB087 /* ContactDetailsCell.xib */; };
-		4B35768622FA007D006EB087 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35768522FA007D006EB087 /* ContactDetailsViewController.swift */; };
 		4B35768822FA02B5006EB087 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35768722FA02B5006EB087 /* BaseViewController.swift */; };
 		4B35768D22FA0716006EB087 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35768C22FA0716006EB087 /* GradientView.swift */; };
 		4B35769022FA0B8B006EB087 /* ContactInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35768E22FA0B8B006EB087 /* ContactInfoCell.swift */; };
 		4B35769122FA0B8B006EB087 /* ContactInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B35768F22FA0B8B006EB087 /* ContactInfoCell.xib */; };
 		4B35769422FA12BA006EB087 /* AddProfilePictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35769222FA12BA006EB087 /* AddProfilePictureCell.swift */; };
 		4B35769522FA12BA006EB087 /* AddProfilePictureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B35769322FA12BA006EB087 /* AddProfilePictureCell.xib */; };
-		4B35769722FA142D006EB087 /* ContactEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35769622FA142D006EB087 /* ContactEditViewController.swift */; };
 		4B3576A622FB315D006EB087 /* MaxLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3576A522FB315D006EB087 /* MaxLength.swift */; };
 		4B3576A822FB3E29006EB087 /* ImagePickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3576A722FB3E29006EB087 /* ImagePickerManager.swift */; };
 		4B7B9B0822FC9D7100F91847 /* ContactDeleteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7B9B0622FC9D7100F91847 /* ContactDeleteCell.swift */; };
 		4B7B9B0922FC9D7100F91847 /* ContactDeleteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B7B9B0722FC9D7100F91847 /* ContactDeleteCell.xib */; };
-		4BBA4A8622FC6B9800BE4961 /* ContactDetailsViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA4A8522FC6B9800BE4961 /* ContactDetailsViewControllerExt.swift */; };
+		4B9C8BC322FDC16F0016BA81 /* ContactsEditPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8BC222FDC16F0016BA81 /* ContactsEditPresenter.swift */; };
+		4B9C8BC522FDC6280016BA81 /* ContactExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8BC422FDC6280016BA81 /* ContactExtras.swift */; };
+		4B9C8BC922FEB77C0016BA81 /* ContactServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8BC822FEB77C0016BA81 /* ContactServiceMock.swift */; };
+		4B9C8BCC22FEB7A00016BA81 /* ContactViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8BCB22FEB7A00016BA81 /* ContactViewMock.swift */; };
+		4B9C8BD222FED3600016BA81 /* ContactEditServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8BD122FED3600016BA81 /* ContactEditServiceMock.swift */; };
+		4B9C8BD422FED36B0016BA81 /* ContactEditViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8BD322FED36B0016BA81 /* ContactEditViewMock.swift */; };
+		4B9C8BDA22FEE1080016BA81 /* ContactDetailsServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8BD922FEE1080016BA81 /* ContactDetailsServiceMock.swift */; };
+		4B9C8BDC22FEE2110016BA81 /* ContactDetailsViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8BDB22FEE2110016BA81 /* ContactDetailsViewMock.swift */; };
+		4B9C8BDE22FF09BE0016BA81 /* ContactDetailsModuleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8BDD22FF09BE0016BA81 /* ContactDetailsModuleTest.swift */; };
+		4B9C8BE022FF0B530016BA81 /* ContactAddAndEditModuleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8BDF22FF0B530016BA81 /* ContactAddAndEditModuleTest.swift */; };
+		4B9C8BE222FF0B670016BA81 /* ContactsModuleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8BE122FF0B670016BA81 /* ContactsModuleTest.swift */; };
 		4BBA4A8822FC7C4900BE4961 /* BaseViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA4A8722FC7C4900BE4961 /* BaseViewControllerExt.swift */; };
-		4BBA4A9222FC929A00BE4961 /* ContactsViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA4A9122FC929A00BE4961 /* ContactsViewControllerExt.swift */; };
-		4BBA4A9522FC92D300BE4961 /* ContactEditViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA4A9422FC92D300BE4961 /* ContactEditViewControllerExt.swift */; };
+		4BE4D12722FD3743002651A2 /* ContactEditViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4D11F22FD3743002651A2 /* ContactEditViewControllerExt.swift */; };
+		4BE4D12822FD3743002651A2 /* ContactEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4D12022FD3743002651A2 /* ContactEditViewController.swift */; };
+		4BE4D12922FD3743002651A2 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4D12222FD3743002651A2 /* ContactDetailsViewController.swift */; };
+		4BE4D12A22FD3743002651A2 /* ContactDetailsViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4D12322FD3743002651A2 /* ContactDetailsViewControllerExt.swift */; };
+		4BE4D12B22FD3743002651A2 /* ContactsViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4D12522FD3743002651A2 /* ContactsViewControllerExt.swift */; };
+		4BE4D12C22FD3743002651A2 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4D12622FD3743002651A2 /* ContactsViewController.swift */; };
+		4BE71C0522FD5BC700C0FA43 /* ContactsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE71C0422FD5BC700C0FA43 /* ContactsService.swift */; };
+		4BE71C0722FD5BDA00C0FA43 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE71C0622FD5BDA00C0FA43 /* ContactsView.swift */; };
+		4BE71C0922FD5C2700C0FA43 /* ContactsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE71C0822FD5C2700C0FA43 /* ContactsPresenter.swift */; };
+		4BE71C0B22FD819900C0FA43 /* ContactDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE71C0A22FD819900C0FA43 /* ContactDetailsService.swift */; };
+		4BE71C0F22FD822800C0FA43 /* ContactDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE71C0E22FD822800C0FA43 /* ContactDetailsView.swift */; };
+		4BE71C1122FD82B500C0FA43 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE71C1022FD82B500C0FA43 /* BaseView.swift */; };
+		4BE71C1322FD892F00C0FA43 /* ContactDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE71C1222FD892F00C0FA43 /* ContactDetailsPresenter.swift */; };
+		4BE71C1622FDA42500C0FA43 /* ContactEditService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE71C1522FDA42500C0FA43 /* ContactEditService.swift */; };
+		4BE71C1822FDA45800C0FA43 /* ContactEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE71C1722FDA45800C0FA43 /* ContactEditView.swift */; };
 		4BF067DB22FB49420078D78C /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF067DA22FB49410078D78C /* Contact.swift */; };
 		4BF067DD22FB55CE0078D78C /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF067DC22FB55CE0078D78C /* String+Extension.swift */; };
-		4BF067DF22FB58EA0078D78C /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF067DE22FB58EA0078D78C /* UIImage+Extension.swift */; };
 		4BF067E122FB68440078D78C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF067E022FB68440078D78C /* NetworkManager.swift */; };
 		4BF067E322FB69780078D78C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF067E222FB69780078D78C /* Constants.swift */; };
 		4BF067E822FC41780078D78C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF067E722FC41780078D78C /* Theme.swift */; };
@@ -59,30 +78,49 @@
 		4B35766822F9DFB1006EB087 /* Contacts AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Contacts AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B35766C22F9DFB1006EB087 /* Contacts_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts_AppTests.swift; sourceTree = "<group>"; };
 		4B35766E22F9DFB1006EB087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B35767722F9EA9B006EB087 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		4B35767D22F9F51E006EB087 /* ContactsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCell.swift; sourceTree = "<group>"; };
 		4B35767E22F9F51E006EB087 /* ContactsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactsCell.xib; sourceTree = "<group>"; };
 		4B35768122F9FCF8006EB087 /* ContactDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsCell.swift; sourceTree = "<group>"; };
 		4B35768222F9FCF8006EB087 /* ContactDetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactDetailsCell.xib; sourceTree = "<group>"; };
-		4B35768522FA007D006EB087 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
 		4B35768722FA02B5006EB087 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		4B35768C22FA0716006EB087 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		4B35768E22FA0B8B006EB087 /* ContactInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoCell.swift; sourceTree = "<group>"; };
 		4B35768F22FA0B8B006EB087 /* ContactInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactInfoCell.xib; sourceTree = "<group>"; };
 		4B35769222FA12BA006EB087 /* AddProfilePictureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProfilePictureCell.swift; sourceTree = "<group>"; };
 		4B35769322FA12BA006EB087 /* AddProfilePictureCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddProfilePictureCell.xib; sourceTree = "<group>"; };
-		4B35769622FA142D006EB087 /* ContactEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactEditViewController.swift; sourceTree = "<group>"; };
 		4B3576A522FB315D006EB087 /* MaxLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxLength.swift; sourceTree = "<group>"; };
 		4B3576A722FB3E29006EB087 /* ImagePickerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerManager.swift; sourceTree = "<group>"; };
 		4B7B9B0622FC9D7100F91847 /* ContactDeleteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDeleteCell.swift; sourceTree = "<group>"; };
 		4B7B9B0722FC9D7100F91847 /* ContactDeleteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactDeleteCell.xib; sourceTree = "<group>"; };
-		4BBA4A8522FC6B9800BE4961 /* ContactDetailsViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewControllerExt.swift; sourceTree = "<group>"; };
+		4B9C8BC222FDC16F0016BA81 /* ContactsEditPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsEditPresenter.swift; sourceTree = "<group>"; };
+		4B9C8BC422FDC6280016BA81 /* ContactExtras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactExtras.swift; sourceTree = "<group>"; };
+		4B9C8BC822FEB77C0016BA81 /* ContactServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactServiceMock.swift; sourceTree = "<group>"; };
+		4B9C8BCB22FEB7A00016BA81 /* ContactViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewMock.swift; sourceTree = "<group>"; };
+		4B9C8BD122FED3600016BA81 /* ContactEditServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactEditServiceMock.swift; sourceTree = "<group>"; };
+		4B9C8BD322FED36B0016BA81 /* ContactEditViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactEditViewMock.swift; sourceTree = "<group>"; };
+		4B9C8BD922FEE1080016BA81 /* ContactDetailsServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsServiceMock.swift; sourceTree = "<group>"; };
+		4B9C8BDB22FEE2110016BA81 /* ContactDetailsViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewMock.swift; sourceTree = "<group>"; };
+		4B9C8BDD22FF09BE0016BA81 /* ContactDetailsModuleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsModuleTest.swift; sourceTree = "<group>"; };
+		4B9C8BDF22FF0B530016BA81 /* ContactAddAndEditModuleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAddAndEditModuleTest.swift; sourceTree = "<group>"; };
+		4B9C8BE122FF0B670016BA81 /* ContactsModuleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsModuleTest.swift; sourceTree = "<group>"; };
 		4BBA4A8722FC7C4900BE4961 /* BaseViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewControllerExt.swift; sourceTree = "<group>"; };
-		4BBA4A9122FC929A00BE4961 /* ContactsViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewControllerExt.swift; sourceTree = "<group>"; };
-		4BBA4A9422FC92D300BE4961 /* ContactEditViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactEditViewControllerExt.swift; sourceTree = "<group>"; };
+		4BE4D11F22FD3743002651A2 /* ContactEditViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactEditViewControllerExt.swift; sourceTree = "<group>"; };
+		4BE4D12022FD3743002651A2 /* ContactEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactEditViewController.swift; sourceTree = "<group>"; };
+		4BE4D12222FD3743002651A2 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
+		4BE4D12322FD3743002651A2 /* ContactDetailsViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewControllerExt.swift; sourceTree = "<group>"; };
+		4BE4D12522FD3743002651A2 /* ContactsViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewControllerExt.swift; sourceTree = "<group>"; };
+		4BE4D12622FD3743002651A2 /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		4BE71C0422FD5BC700C0FA43 /* ContactsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsService.swift; sourceTree = "<group>"; };
+		4BE71C0622FD5BDA00C0FA43 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		4BE71C0822FD5C2700C0FA43 /* ContactsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsPresenter.swift; sourceTree = "<group>"; };
+		4BE71C0A22FD819900C0FA43 /* ContactDetailsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsService.swift; sourceTree = "<group>"; };
+		4BE71C0E22FD822800C0FA43 /* ContactDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsView.swift; sourceTree = "<group>"; };
+		4BE71C1022FD82B500C0FA43 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		4BE71C1222FD892F00C0FA43 /* ContactDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsPresenter.swift; sourceTree = "<group>"; };
+		4BE71C1522FDA42500C0FA43 /* ContactEditService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactEditService.swift; sourceTree = "<group>"; };
+		4BE71C1722FDA45800C0FA43 /* ContactEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactEditView.swift; sourceTree = "<group>"; };
 		4BF067DA22FB49410078D78C /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		4BF067DC22FB55CE0078D78C /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
-		4BF067DE22FB58EA0078D78C /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		4BF067E022FB68440078D78C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		4BF067E222FB69780078D78C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4BF067E722FC41780078D78C /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
@@ -127,7 +165,8 @@
 		4B35765322F9DFAF006EB087 /* Contacts App */ = {
 			isa = PBXGroup;
 			children = (
-				4BBA4A8A22FC921800BE4961 /* MVC */,
+				4BE71BFF22FD560D00C0FA43 /* Services */,
+				4BBA4A8A22FC921800BE4961 /* MVP */,
 				4BBA4A8122FC6AF100BE4961 /* plist */,
 				4BBA4A8022FC6AE500BE4961 /* BaseClass */,
 				4BBA4A7F22FC6AD000BE4961 /* AppDelegate */,
@@ -141,6 +180,9 @@
 		4B35766B22F9DFB1006EB087 /* Contacts AppTests */ = {
 			isa = PBXGroup;
 			children = (
+				4B9C8BD022FECDDD0016BA81 /* ContactDetailsModuleTest */,
+				4B9C8BCF22FECDA60016BA81 /* ContactAddAndEditModuleTest */,
+				4B9C8BCA22FEB7870016BA81 /* ContactModuleTest */,
 				4B35766C22F9DFB1006EB087 /* Contacts_AppTests.swift */,
 				4B35766E22F9DFB1006EB087 /* Info.plist */,
 			);
@@ -150,9 +192,9 @@
 		4B35767C22F9F4E1006EB087 /* TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				4B7B9B0522FC9D5000F91847 /* DeleteCell */,
 				4BBA4A9022FC927800BE4961 /* AddPictureCell */,
 				4BBA4A8D22FC925400BE4961 /* ContactCell */,
+				4B7B9B0522FC9D5000F91847 /* DeleteCell */,
 				4BBA4A8E22FC925E00BE4961 /* DetailsCell */,
 				4BBA4A8F22FC926B00BE4961 /* InfoCell */,
 			);
@@ -181,6 +223,36 @@
 			path = DeleteCell;
 			sourceTree = "<group>";
 		};
+		4B9C8BCA22FEB7870016BA81 /* ContactModuleTest */ = {
+			isa = PBXGroup;
+			children = (
+				4B9C8BC822FEB77C0016BA81 /* ContactServiceMock.swift */,
+				4B9C8BCB22FEB7A00016BA81 /* ContactViewMock.swift */,
+				4B9C8BE122FF0B670016BA81 /* ContactsModuleTest.swift */,
+			);
+			path = ContactModuleTest;
+			sourceTree = "<group>";
+		};
+		4B9C8BCF22FECDA60016BA81 /* ContactAddAndEditModuleTest */ = {
+			isa = PBXGroup;
+			children = (
+				4B9C8BD122FED3600016BA81 /* ContactEditServiceMock.swift */,
+				4B9C8BD322FED36B0016BA81 /* ContactEditViewMock.swift */,
+				4B9C8BDF22FF0B530016BA81 /* ContactAddAndEditModuleTest.swift */,
+			);
+			path = ContactAddAndEditModuleTest;
+			sourceTree = "<group>";
+		};
+		4B9C8BD022FECDDD0016BA81 /* ContactDetailsModuleTest */ = {
+			isa = PBXGroup;
+			children = (
+				4B9C8BD922FEE1080016BA81 /* ContactDetailsServiceMock.swift */,
+				4B9C8BDB22FEE2110016BA81 /* ContactDetailsViewMock.swift */,
+				4B9C8BDD22FF09BE0016BA81 /* ContactDetailsModuleTest.swift */,
+			);
+			path = ContactDetailsModuleTest;
+			sourceTree = "<group>";
+		};
 		4BBA4A7F22FC6AD000BE4961 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +266,7 @@
 			children = (
 				4B35768722FA02B5006EB087 /* BaseViewController.swift */,
 				4BBA4A8722FC7C4900BE4961 /* BaseViewControllerExt.swift */,
+				4BE71C1022FD82B500C0FA43 /* BaseView.swift */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -206,69 +279,34 @@
 			path = plist;
 			sourceTree = "<group>";
 		};
-		4BBA4A8222FC6B5E00BE4961 /* ContactVC */ = {
-			isa = PBXGroup;
-			children = (
-				4B35767722F9EA9B006EB087 /* ContactsViewController.swift */,
-				4BBA4A9122FC929A00BE4961 /* ContactsViewControllerExt.swift */,
-			);
-			path = ContactVC;
-			sourceTree = "<group>";
-		};
-		4BBA4A8322FC6B6A00BE4961 /* ContactEditVC */ = {
-			isa = PBXGroup;
-			children = (
-				4B35769622FA142D006EB087 /* ContactEditViewController.swift */,
-				4BBA4A9422FC92D300BE4961 /* ContactEditViewControllerExt.swift */,
-			);
-			path = ContactEditVC;
-			sourceTree = "<group>";
-		};
-		4BBA4A8422FC6B7500BE4961 /* ContactDetailsVC */ = {
-			isa = PBXGroup;
-			children = (
-				4B35768522FA007D006EB087 /* ContactDetailsViewController.swift */,
-				4BBA4A8522FC6B9800BE4961 /* ContactDetailsViewControllerExt.swift */,
-			);
-			path = ContactDetailsVC;
-			sourceTree = "<group>";
-		};
 		4BBA4A8922FC8F3200BE4961 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				4B3576A522FB315D006EB087 /* MaxLength.swift */,
 				4BF067DC22FB55CE0078D78C /* String+Extension.swift */,
-				4BF067DE22FB58EA0078D78C /* UIImage+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		4BBA4A8A22FC921800BE4961 /* MVC */ = {
+		4BBA4A8A22FC921800BE4961 /* MVP */ = {
 			isa = PBXGroup;
 			children = (
-				4BBA4A8C22FC923200BE4961 /* Controller */,
 				4BF067D922FB49300078D78C /* Model */,
-				4BBA4A8B22FC922500BE4961 /* View */,
+				4BBA4A8C22FC923200BE4961 /* View */,
+				4BE71BFE22FD560300C0FA43 /* Presenter */,
 			);
-			path = MVC;
+			path = MVP;
 			sourceTree = "<group>";
 		};
-		4BBA4A8B22FC922500BE4961 /* View */ = {
+		4BBA4A8C22FC923200BE4961 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				4B35767C22F9F4E1006EB087 /* TableViewCell */,
+				4BE4D12122FD3743002651A2 /* DetailsViewController */,
+				4BE4D11E22FD3743002651A2 /* EditViewController */,
+				4BE4D12422FD3743002651A2 /* ViewController */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		4BBA4A8C22FC923200BE4961 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				4BBA4A8422FC6B7500BE4961 /* ContactDetailsVC */,
-				4BBA4A8322FC6B6A00BE4961 /* ContactEditVC */,
-				4BBA4A8222FC6B5E00BE4961 /* ContactVC */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		4BBA4A8D22FC925400BE4961 /* ContactCell */ = {
@@ -307,10 +345,85 @@
 			path = AddPictureCell;
 			sourceTree = "<group>";
 		};
+		4BE4D11E22FD3743002651A2 /* EditViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4BE4D12022FD3743002651A2 /* ContactEditViewController.swift */,
+				4BE4D11F22FD3743002651A2 /* ContactEditViewControllerExt.swift */,
+			);
+			path = EditViewController;
+			sourceTree = "<group>";
+		};
+		4BE4D12122FD3743002651A2 /* DetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4BE4D12222FD3743002651A2 /* ContactDetailsViewController.swift */,
+				4BE4D12322FD3743002651A2 /* ContactDetailsViewControllerExt.swift */,
+			);
+			path = DetailsViewController;
+			sourceTree = "<group>";
+		};
+		4BE4D12422FD3743002651A2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4BE4D12622FD3743002651A2 /* ContactsViewController.swift */,
+				4BE4D12522FD3743002651A2 /* ContactsViewControllerExt.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4BE71BFE22FD560300C0FA43 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				4BE71C0822FD5C2700C0FA43 /* ContactsPresenter.swift */,
+				4BE71C1222FD892F00C0FA43 /* ContactDetailsPresenter.swift */,
+				4B9C8BC222FDC16F0016BA81 /* ContactsEditPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		4BE71BFF22FD560D00C0FA43 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4BE71C1422FDA40600C0FA43 /* EditAndAddService */,
+				4BE71C0D22FD81B000C0FA43 /* ContactsService */,
+				4BE71C0C22FD81A600C0FA43 /* DetailsService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4BE71C0C22FD81A600C0FA43 /* DetailsService */ = {
+			isa = PBXGroup;
+			children = (
+				4BE71C0A22FD819900C0FA43 /* ContactDetailsService.swift */,
+				4BE71C0E22FD822800C0FA43 /* ContactDetailsView.swift */,
+			);
+			path = DetailsService;
+			sourceTree = "<group>";
+		};
+		4BE71C0D22FD81B000C0FA43 /* ContactsService */ = {
+			isa = PBXGroup;
+			children = (
+				4BE71C0422FD5BC700C0FA43 /* ContactsService.swift */,
+				4BE71C0622FD5BDA00C0FA43 /* ContactsView.swift */,
+			);
+			path = ContactsService;
+			sourceTree = "<group>";
+		};
+		4BE71C1422FDA40600C0FA43 /* EditAndAddService */ = {
+			isa = PBXGroup;
+			children = (
+				4BE71C1522FDA42500C0FA43 /* ContactEditService.swift */,
+				4BE71C1722FDA45800C0FA43 /* ContactEditView.swift */,
+			);
+			path = EditAndAddService;
+			sourceTree = "<group>";
+		};
 		4BF067D922FB49300078D78C /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				4BF067DA22FB49410078D78C /* Contact.swift */,
+				4B9C8BC422FDC6280016BA81 /* ContactExtras.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -420,29 +533,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BE71C1122FD82B500C0FA43 /* BaseView.swift in Sources */,
 				4B35767F22F9F51E006EB087 /* ContactsCell.swift in Sources */,
+				4BE4D12C22FD3743002651A2 /* ContactsViewController.swift in Sources */,
 				4B7B9B0822FC9D7100F91847 /* ContactDeleteCell.swift in Sources */,
+				4BE4D12822FD3743002651A2 /* ContactEditViewController.swift in Sources */,
 				4BBA4A8822FC7C4900BE4961 /* BaseViewControllerExt.swift in Sources */,
 				4B35768322F9FCF8006EB087 /* ContactDetailsCell.swift in Sources */,
-				4B35768622FA007D006EB087 /* ContactDetailsViewController.swift in Sources */,
 				4B35769422FA12BA006EB087 /* AddProfilePictureCell.swift in Sources */,
-				4BBA4A9222FC929A00BE4961 /* ContactsViewControllerExt.swift in Sources */,
 				4B35769022FA0B8B006EB087 /* ContactInfoCell.swift in Sources */,
+				4BE71C0722FD5BDA00C0FA43 /* ContactsView.swift in Sources */,
+				4BE71C1322FD892F00C0FA43 /* ContactDetailsPresenter.swift in Sources */,
+				4BE71C0B22FD819900C0FA43 /* ContactDetailsService.swift in Sources */,
+				4BE71C0522FD5BC700C0FA43 /* ContactsService.swift in Sources */,
 				4BF067DB22FB49420078D78C /* Contact.swift in Sources */,
 				4B3576A622FB315D006EB087 /* MaxLength.swift in Sources */,
-				4BBA4A9522FC92D300BE4961 /* ContactEditViewControllerExt.swift in Sources */,
-				4B35767822F9EA9B006EB087 /* ContactsViewController.swift in Sources */,
 				4B35768822FA02B5006EB087 /* BaseViewController.swift in Sources */,
-				4BBA4A8622FC6B9800BE4961 /* ContactDetailsViewControllerExt.swift in Sources */,
+				4BE4D12922FD3743002651A2 /* ContactDetailsViewController.swift in Sources */,
+				4BE71C1622FDA42500C0FA43 /* ContactEditService.swift in Sources */,
 				4BF067E122FB68440078D78C /* NetworkManager.swift in Sources */,
+				4BE4D12A22FD3743002651A2 /* ContactDetailsViewControllerExt.swift in Sources */,
 				4B35768D22FA0716006EB087 /* GradientView.swift in Sources */,
-				4BF067DF22FB58EA0078D78C /* UIImage+Extension.swift in Sources */,
+				4B9C8BC522FDC6280016BA81 /* ContactExtras.swift in Sources */,
 				4BF067E822FC41780078D78C /* Theme.swift in Sources */,
+				4B9C8BC322FDC16F0016BA81 /* ContactsEditPresenter.swift in Sources */,
 				4B35765522F9DFAF006EB087 /* AppDelegate.swift in Sources */,
 				4B3576A822FB3E29006EB087 /* ImagePickerManager.swift in Sources */,
+				4BE4D12722FD3743002651A2 /* ContactEditViewControllerExt.swift in Sources */,
 				4BF067DD22FB55CE0078D78C /* String+Extension.swift in Sources */,
-				4B35769722FA142D006EB087 /* ContactEditViewController.swift in Sources */,
+				4BE71C0F22FD822800C0FA43 /* ContactDetailsView.swift in Sources */,
+				4BE71C0922FD5C2700C0FA43 /* ContactsPresenter.swift in Sources */,
+				4BE71C1822FDA45800C0FA43 /* ContactEditView.swift in Sources */,
 				4BF067E322FB69780078D78C /* Constants.swift in Sources */,
+				4BE4D12B22FD3743002651A2 /* ContactsViewControllerExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +573,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B9C8BC922FEB77C0016BA81 /* ContactServiceMock.swift in Sources */,
+				4B9C8BDE22FF09BE0016BA81 /* ContactDetailsModuleTest.swift in Sources */,
+				4B9C8BE022FF0B530016BA81 /* ContactAddAndEditModuleTest.swift in Sources */,
+				4B9C8BD422FED36B0016BA81 /* ContactEditViewMock.swift in Sources */,
+				4B9C8BDC22FEE2110016BA81 /* ContactDetailsViewMock.swift in Sources */,
+				4B9C8BCC22FEB7A00016BA81 /* ContactViewMock.swift in Sources */,
+				4B9C8BE222FF0B670016BA81 /* ContactsModuleTest.swift in Sources */,
+				4B9C8BDA22FEE1080016BA81 /* ContactDetailsServiceMock.swift in Sources */,
 				4B35766D22F9DFB1006EB087 /* Contacts_AppTests.swift in Sources */,
+				4B9C8BD222FED3600016BA81 /* ContactEditServiceMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
