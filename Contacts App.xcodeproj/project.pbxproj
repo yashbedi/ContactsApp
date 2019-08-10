@@ -37,6 +37,7 @@
 		4B9C8BE022FF0B530016BA81 /* ContactAddAndEditModuleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8BDF22FF0B530016BA81 /* ContactAddAndEditModuleTest.swift */; };
 		4B9C8BE222FF0B670016BA81 /* ContactsModuleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C8BE122FF0B670016BA81 /* ContactsModuleTest.swift */; };
 		4BBA4A8822FC7C4900BE4961 /* BaseViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA4A8722FC7C4900BE4961 /* BaseViewControllerExt.swift */; };
+		4BC8EE0922FF2417007ED4EB /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC8EE0822FF2416007ED4EB /* Theme.swift */; };
 		4BE4D12722FD3743002651A2 /* ContactEditViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4D11F22FD3743002651A2 /* ContactEditViewControllerExt.swift */; };
 		4BE4D12822FD3743002651A2 /* ContactEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4D12022FD3743002651A2 /* ContactEditViewController.swift */; };
 		4BE4D12922FD3743002651A2 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4D12222FD3743002651A2 /* ContactDetailsViewController.swift */; };
@@ -103,6 +104,7 @@
 		4B9C8BDF22FF0B530016BA81 /* ContactAddAndEditModuleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAddAndEditModuleTest.swift; sourceTree = "<group>"; };
 		4B9C8BE122FF0B670016BA81 /* ContactsModuleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsModuleTest.swift; sourceTree = "<group>"; };
 		4BBA4A8722FC7C4900BE4961 /* BaseViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewControllerExt.swift; sourceTree = "<group>"; };
+		4BC8EE0822FF2416007ED4EB /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		4BE4D11F22FD3743002651A2 /* ContactEditViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactEditViewControllerExt.swift; sourceTree = "<group>"; };
 		4BE4D12022FD3743002651A2 /* ContactEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactEditViewController.swift; sourceTree = "<group>"; };
 		4BE4D12222FD3743002651A2 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 			children = (
 				4BBA4A8922FC8F3200BE4961 /* Extensions */,
 				4B35768C22FA0716006EB087 /* GradientView.swift */,
+				4BC8EE0822FF2416007ED4EB /* Theme.swift */,
 				4B3576A722FB3E29006EB087 /* ImagePickerManager.swift */,
 				4BF067E022FB68440078D78C /* NetworkManager.swift */,
 				4BF067E222FB69780078D78C /* Constants.swift */,
@@ -545,6 +548,7 @@
 				4BE71C0522FD5BC700C0FA43 /* ContactsService.swift in Sources */,
 				4BF067DB22FB49420078D78C /* Contact.swift in Sources */,
 				4B3576A622FB315D006EB087 /* MaxLength.swift in Sources */,
+				4BC8EE0922FF2417007ED4EB /* Theme.swift in Sources */,
 				4B35768822FA02B5006EB087 /* BaseViewController.swift in Sources */,
 				4BE4D12922FD3743002651A2 /* ContactDetailsViewController.swift in Sources */,
 				4BE71C1622FDA42500C0FA43 /* ContactEditService.swift in Sources */,
