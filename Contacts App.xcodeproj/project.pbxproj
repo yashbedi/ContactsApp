@@ -56,7 +56,6 @@
 		4BF067DD22FB55CE0078D78C /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF067DC22FB55CE0078D78C /* String+Extension.swift */; };
 		4BF067E122FB68440078D78C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF067E022FB68440078D78C /* NetworkManager.swift */; };
 		4BF067E322FB69780078D78C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF067E222FB69780078D78C /* Constants.swift */; };
-		4BF067E822FC41780078D78C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF067E722FC41780078D78C /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,7 +122,6 @@
 		4BF067DC22FB55CE0078D78C /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		4BF067E022FB68440078D78C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		4BF067E222FB69780078D78C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		4BF067E722FC41780078D78C /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,7 +203,6 @@
 			isa = PBXGroup;
 			children = (
 				4BBA4A8922FC8F3200BE4961 /* Extensions */,
-				4BF067E722FC41780078D78C /* Theme.swift */,
 				4B35768C22FA0716006EB087 /* GradientView.swift */,
 				4B3576A722FB3E29006EB087 /* ImagePickerManager.swift */,
 				4BF067E022FB68440078D78C /* NetworkManager.swift */,
@@ -555,7 +552,6 @@
 				4BE4D12A22FD3743002651A2 /* ContactDetailsViewControllerExt.swift in Sources */,
 				4B35768D22FA0716006EB087 /* GradientView.swift in Sources */,
 				4B9C8BC522FDC6280016BA81 /* ContactExtras.swift in Sources */,
-				4BF067E822FC41780078D78C /* Theme.swift in Sources */,
 				4B9C8BC322FDC16F0016BA81 /* ContactsEditPresenter.swift in Sources */,
 				4B35765522F9DFAF006EB087 /* AppDelegate.swift in Sources */,
 				4B3576A822FB3E29006EB087 /* ImagePickerManager.swift in Sources */,
@@ -731,6 +727,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = disable;
 				DEVELOPMENT_TEAM = YH443Y54FZ;
 				INFOPLIST_FILE = "$(SRCROOT)/Contacts App/plist/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -750,6 +748,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_ACTIVITY_MODE = "";
 				DEVELOPMENT_TEAM = YH443Y54FZ;
 				INFOPLIST_FILE = "$(SRCROOT)/Contacts App/plist/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
