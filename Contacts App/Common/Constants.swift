@@ -9,8 +9,7 @@
 
 import Foundation
 
-
-struct Constants {
+internal struct Constants {
     
     static let kBaseUrl : String                = "http://gojek-contacts-app.herokuapp.com"
     static let kTextMessage : String            = "Voila, How are you doing today.!!!"
@@ -52,4 +51,5 @@ struct Constants {
     static let kWantToDelete : String           = "You want to this Delete the Contact."
     static let kYes : String                    = "Yes"
     static let kNo : String                     = "No"
+    static let kThemeChanged : String           = "ThemeChanged"
 }
